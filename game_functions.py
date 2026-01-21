@@ -2,7 +2,7 @@ import random
 
 # function to be used by game_1: Guess the Number
 def pick_value(poss_values):
-    choice = int(round(len(poss_values)/2))
+    choice = len(poss_values) // 2
     x = poss_values[choice]
     return x
 
